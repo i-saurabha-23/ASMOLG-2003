@@ -6696,6 +6696,11 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 1200px) {
+  .logo img {
+    height: 90px;
+    padding-top: 20px;
+    float: left;
+}
   .d-xl-none {
     display: none !important;
   }
