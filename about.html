@@ -37,8 +37,9 @@
     <div class="container-fluid bg-white position-relative" style="box-shadow: 0 2px 6px 0 rgb(0 0 0 / 12%), inset 0 -1px 0 0 #dadce0; background: #fff;transform: translate3d(0,0,0); ">
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
             <a href="index.html" class="navbar-brand text-secondary">
-                <img src="img/Logo + Name.png" alt="Asmolg Logo" style="height: 120px; padding-top: 20px; ">
-                </a>
+                <div class="logo">
+                    <img src="img/Logo + Name.png" alt="Asmolg Logo">
+                </div>                </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -259,27 +260,30 @@
                     <a class="text-white-50 mb-2" href="index.html"><i class="fa fa-angle-right text-white mr-2"></i>Home</a>
                     <a class="text-white-50 mb-2" href="service.html"><i class="fa fa-angle-right text-white mr-2"></i>Our services</a>
                     <a class="text-white-50 mb-2" href="about.html"><i class="fa fa-angle-right text-white mr-2"></i>About us</a>
+                    <a class="text-white-50 mb-2" href="notes.html"><i class="fa fa-angle-right text-white mr-2"></i>Notes</a>
                     <a class="text-white-50" href="contact.html"><i class="fa fa-angle-right text-white mr-2"></i>Contact Us</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-uppercase text-white mb-4">Feedback</h4>
-                <p class="mb-4">Give your Precious Feedback</p>
-                <div class="w-100 mb-3">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Your Feedback">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary text-uppercase px-3">Send</button>
+                <form action="https://formspree.io/f/moqbgawl" method="post">
+                    <h4 class="text-uppercase text-white mb-4">Feedback</h4>
+                    <p class="mb-4">Give your Precious Feedback</p>
+                    <div class="w-100 mb-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control border-light" name="Feeedback" style="padding: 25px;" placeholder="Your Feedback">
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-primary text-uppercase px-3">Send</button>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </form>
                 <i>THANK YOU</i>
             </div>
         </div>
     </div>
     <div class="container-fluid py-4 px-sm-3 px-md-5" style="background: #111111;">
-        <p class="mb-2 text-center text-white-50">&copy; <a href="#">asmolg</a>. All Rights Reserved.</p>
-        <p class="m-0 text-center text-white-50">Designed by <a href="#">TRIDENT</a></p>
+        <p class="mb-2 text-center text-white-50">&copy; <a href="#">ASMOLG</a>. All Rights Reserved.</p>
+        <p class="m-0 text-center text-white-50">Designed by <a href="#">ASMOLG</a></p>
     </div>
     <!-- Footer End -->
 
