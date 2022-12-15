@@ -9971,10 +9971,3 @@ h6,
   height: 120px;
   padding-top: 20px;
 }
-@media(max-width: 1200px){
-  /* brand logo */
-.logo img{
-  height: 90px;
-  padding-top: 20px;
-}
-}
