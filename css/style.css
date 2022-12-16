@@ -9847,16 +9847,10 @@ h6,
 }
 
 @media (max-width: 991.98px) {
-  .page-header {
-    height: 60px;
-    padding-top: 1rem;
-    margin-bottom: 0rem;
-  }
-  .text-white{
-    display: none;
-  }
-  .nako{
-    display: none;
+    .page-header {
+      height: 6.5rem;
+      padding-top: 1rem;
+      margin-bottom: 0rem;
   }
 }
 
