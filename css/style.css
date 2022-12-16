@@ -9495,6 +9495,9 @@ button.bg-dark:focus {
 }
 
 .text-uppercase {
+
+    font-size: 1.5rem;
+
   text-transform: uppercase !important;
 }
 
@@ -9964,4 +9967,16 @@ h6,
 .logo img{
   height: 120px;
   padding-top: 20px;
+}
+/* PDF Adjustment */
+.pdf{
+  text-align: center;
+}
+@media (min-width: 350px){
+  .pdf iframe {
+    height: 14cm;
+    margin-top: 2rem;
+    width: 10cm;
+    margin-bottom: -5rem;
+}
 }
