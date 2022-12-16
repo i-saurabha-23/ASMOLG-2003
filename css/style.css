@@ -9972,11 +9972,19 @@ h6,
 .pdf{
   text-align: center;
 }
-@media (min-width: 350px){
+@media (min-width: 500px){
   .pdf iframe {
     height: 14cm;
     margin-top: 2rem;
     width: 9cm;
     margin-bottom: -5rem;
+}
+}
+@media (min-width: 1200px){
+  .pdf iframe {
+    height: 32cm;
+    margin-top: 2rem;
+    width: 25cm;
+    margin-bottom: -3rem;
 }
 }
