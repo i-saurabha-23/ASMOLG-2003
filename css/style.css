@@ -8017,6 +8017,12 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 576px) {
+  .pdf iframe {
+    height: 22cm;
+    margin-top: 2rem;
+    width: 15cm;
+    margin-bottom: -3rem;
+}
   .m-sm-0 {
     margin: 0 !important;
   }
@@ -8362,6 +8368,12 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 768px) {
+  .pdf iframe {
+    height: 25cm;
+    margin-top: 2rem;
+    width: 19cm;
+    margin-bottom: -3rem;
+}
   .m-md-0 {
     margin: 0 !important;
   }
@@ -8707,6 +8719,12 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 992px) {
+  .pdf iframe {
+    height: 29cm;
+    margin-top: 2rem;
+    width: 22cm;
+    margin-bottom: -3rem;
+}
   .m-lg-0 {
     margin: 0 !important;
   }
@@ -9052,6 +9070,12 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 1200px) {
+  .pdf iframe {
+    height: 32cm;
+    margin-top: 2rem;
+    width: 25cm;
+    margin-bottom: -3rem;
+}
   .m-xl-0 {
     margin: 0 !important;
   }
@@ -9443,6 +9467,12 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 576px) {
+  .pdf iframe {
+    height: 20cm;
+    margin-top: 2rem;
+    width: 15cm;
+    margin-bottom: -3rem;
+}
   .text-sm-left {
     text-align: left !important;
   }
@@ -9455,6 +9485,12 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 768px) {
+  .pdf iframe {
+    height: 22cm;
+    margin-top: 2rem;
+    width: 17cm;
+    margin-bottom: -3rem;
+}
   .text-md-left {
     text-align: left !important;
   }
@@ -9467,6 +9503,12 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 992px) {
+  .pdf iframe {
+    height: 27cm;
+    margin-top: 2rem;
+    width: 20cm;
+    margin-bottom: -3rem;
+}
   .text-lg-left {
     text-align: left !important;
   }
@@ -9479,6 +9521,12 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 1200px) {
+  .pdf iframe {
+    height: 32cm;
+    margin-top: 2rem;
+    width: 25cm;
+    margin-bottom: -3rem;
+}
   .text-xl-left {
     text-align: left !important;
   }
@@ -9978,6 +10026,9 @@ h6,
     margin-top: 2rem;
     width: 9cm;
     margin-bottom: -5rem;
+}
+.name h1 {
+  font-size: 5rem;
 }
 }
 @media (min-width: 1200px){
