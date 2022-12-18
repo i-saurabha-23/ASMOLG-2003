@@ -10012,3 +10012,8 @@ h6,
 .pdf{
   text-align: center;
 }
+.pdf iframe{
+  margin-top: 2rem;
+  height: 26.5rem;
+  margin-bottom: -4.5rem;
+}
