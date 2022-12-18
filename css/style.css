@@ -8018,10 +8018,9 @@ button.bg-dark:focus {
 
 @media (min-width: 576px) {
   .pdf iframe {
-    height: 22cm;
-    margin-top: 2rem;
-    width: 15cm;
-    margin-bottom: -3rem;
+    height: 26.5rem;
+    margin-bottom: -5rem;
+    margin-top: 1rem;
 }
   .m-sm-0 {
     margin: 0 !important;
@@ -8369,10 +8368,9 @@ button.bg-dark:focus {
 
 @media (min-width: 768px) {
   .pdf iframe {
-    height: 25cm;
-    margin-top: 2rem;
-    width: 19cm;
-    margin-bottom: -3rem;
+    height: 26.5rem;
+    margin-bottom: -5rem;
+    margin-top: 1rem;
 }
   .m-md-0 {
     margin: 0 !important;
@@ -8720,10 +8718,9 @@ button.bg-dark:focus {
 
 @media (min-width: 992px) {
   .pdf iframe {
-    height: 29cm;
-    margin-top: 2rem;
-    width: 22cm;
-    margin-bottom: -3rem;
+    height: 26.5rem;
+    margin-bottom: -5rem;
+    margin-top: 1rem;
 }
   .m-lg-0 {
     margin: 0 !important;
@@ -9071,10 +9068,9 @@ button.bg-dark:focus {
 
 @media (min-width: 1200px) {
   .pdf iframe {
-    height: 32cm;
-    margin-top: 2rem;
-    width: 25cm;
-    margin-bottom: -3rem;
+    height: 26.5rem;
+    margin-bottom: -5rem;
+    margin-top: 1rem;
 }
   .m-xl-0 {
     margin: 0 !important;
@@ -9468,10 +9464,9 @@ button.bg-dark:focus {
 
 @media (min-width: 576px) {
   .pdf iframe {
-    height: 20cm;
-    margin-top: 2rem;
-    width: 15cm;
-    margin-bottom: -3rem;
+    height: 26.5rem;
+    margin-bottom: -5rem;
+    margin-top: 1rem;
 }
   .text-sm-left {
     text-align: left !important;
@@ -9486,10 +9481,9 @@ button.bg-dark:focus {
 
 @media (min-width: 768px) {
   .pdf iframe {
-    height: 22cm;
-    margin-top: 2rem;
-    width: 17cm;
-    margin-bottom: -3rem;
+    height: 26.5rem;
+    margin-bottom: -5rem;
+    margin-top: 1rem;
 }
   .text-md-left {
     text-align: left !important;
@@ -9504,10 +9498,9 @@ button.bg-dark:focus {
 
 @media (min-width: 992px) {
   .pdf iframe {
-    height: 27cm;
-    margin-top: 2rem;
-    width: 20cm;
-    margin-bottom: -3rem;
+    height: 26.5rem;
+    margin-bottom: -5rem;
+    margin-top: 1rem;
 }
   .text-lg-left {
     text-align: left !important;
@@ -9522,10 +9515,9 @@ button.bg-dark:focus {
 
 @media (min-width: 1200px) {
   .pdf iframe {
-    height: 32cm;
-    margin-top: 2rem;
-    width: 25cm;
-    margin-bottom: -3rem;
+    height: 26.5rem;
+    margin-bottom: -5rem;
+    margin-top: 1rem;
 }
   .text-xl-left {
     text-align: left !important;
@@ -10019,23 +10011,4 @@ h6,
 /* PDF Adjustment */
 .pdf{
   text-align: center;
-}
-@media (min-width: 500px){
-  .pdf iframe {
-    height: 14cm;
-    margin-top: 2rem;
-    width: 9cm;
-    margin-bottom: -5rem;
-}
-.name h1 {
-  font-size: 5rem;
-}
-}
-@media (min-width: 1200px){
-  .pdf iframe {
-    height: 32cm;
-    margin-top: 2rem;
-    width: 25cm;
-    margin-bottom: -3rem;
-}
 }
