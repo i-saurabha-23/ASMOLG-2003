@@ -10011,9 +10011,10 @@ h6,
 /* PDF Adjustment */
 .pdf{
   text-align: center;
+  margin: 0rem 0rem 4rem 0rem;
 }
 .pdf iframe{
-  margin-top: 2rem;
+  margin: 2rem 0rem;
   width: 100%;
   height: 26.5rem;
   margin-bottom: -4.5rem;
@@ -10024,8 +10025,8 @@ h6,
     font-size: 3rem;
 }   
   .pdf iframe{
-  margin-top: 2rem;
-  width: 25rem;
+    margin: 2rem 0rem;
+    width: 25rem;
   height: 35rem;
   margin-bottom: -4.5rem;
   }
@@ -10036,7 +10037,7 @@ h6,
     font-size: 3rem;
 }   
   .pdf iframe{
-  margin-top: 2rem;
+    margin: 2rem 0rem;
   width: 35rem;
   height: 45rem;
   margin-bottom: -4.5rem;
@@ -10048,7 +10049,7 @@ h6,
     font-size: 3rem;
 }   
   .pdf iframe{
-  margin-top: 2rem;
+    margin: 2rem 0rem;
   width: 40rem;
   height: 45rem;
   margin-bottom: -4.5rem;
@@ -10060,7 +10061,7 @@ h6,
     font-size: 3rem;
 }   
   .pdf iframe{
-  margin-top: 2rem;
+    margin: 2rem 0rem;
   width: 45rem;
   height: 45rem;
   margin-bottom: -4.5rem;
@@ -10072,7 +10073,7 @@ h6,
     font-size: 3rem;
 }   
   .pdf iframe{
-  margin-top: 2rem;
+    margin: 2rem 0rem;
   width: 50rem;
   height: 45rem;
   margin-bottom: -4.5rem;
@@ -10084,7 +10085,7 @@ h6,
     font-size: 3rem;
 }   
   .pdf iframe{
-  margin-top: 2rem;
+    margin: 2rem 0rem;
   width: 55rem;
   height: 45rem;
   margin-bottom: -4.5rem;
@@ -10096,7 +10097,7 @@ h6,
     font-size: 3rem;
 }   
   .pdf iframe{
-  margin-top: 2rem;
+    margin: 2rem 0rem;
   width: 60rem;
   height: 45rem;
   margin-bottom: -4.5rem;
@@ -10108,7 +10109,7 @@ h6,
     font-size: 3rem;
 }   
   .pdf iframe{
-  margin-top: 2rem;
+    margin: 2rem 0rem;
   width: 65rem;
   height: 74rem;
   margin-bottom: -4.5rem;
@@ -10120,7 +10121,7 @@ h6,
     font-size: 3rem;
 }  
   .pdf iframe{
-  margin-top: 2rem;
+    margin: 2rem 0rem;
   width: 70;
   height: 74rem;
   margin-bottom: -4.5rem;
