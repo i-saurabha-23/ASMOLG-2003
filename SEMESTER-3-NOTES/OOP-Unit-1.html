@@ -73,18 +73,26 @@
     <!-- Page Header Start -->
 
     <!-- Main Content Ends -->
-    <div class="pdf" style="text-align: center;">
-        <iframe src="https://drive.google.com/file/d/1AJPEVT9Y-ReIr5eIEwm78YGwOwtrpMjR/preview" type="application/pdf"></iframe>
-        <h4>OOP UNIT 1</h4>
-       <div style="margin: 5rem;" class="download">
-        <a href="https://drive.google.com/uc?export=download&id=1AJPEVT9Y-ReIr5eIEwm78YGwOwtrpMjR">
-            <button style="border-radius: 2rem; padding: 0.5rem 2rem; background-color: dodgerblue; color: white;">Download</button>
-           </a>
-       </div>
-    </div>
+    <div id="viewer" class="pdf"></div>
+    <script type="text/javascript" src="https://cloudpdf.io/viewer.min.js"></script>
+    <script>
+      const config = { 
+        documentId: '3eba63fb-06ab-4100-91db-ea41c5b8ce29',
+        darkMode: true, 
+      };
+      CloudPDF(config, document.getElementById('viewer')).then((instance) => {
+        
+      });
+    </script>
     <!-- Main Content Ends -->
   
 
+      <!-- Footer Start -->
+      <div class="container-fluid py-4 px-sm-3 px-md-5" style="background: #111111; margin-top: 2rem;">
+        <p class="mb-2 text-center text-white-50">&copy; <a href="#">ASMOLG</a>. All Rights Reserved.</p>
+        <p class="m-0 text-center text-white-50">Designed by <a href="#">ASMOLG</a></p>
+    </div>
+    <!-- Footer End -->
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-up"></i></a>

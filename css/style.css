@@ -8017,11 +8017,7 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 576px) {
-  .pdf iframe {
-    height: 26.5rem;
-    margin-bottom: -5rem;
-    margin-top: 1rem;
-}
+
   .m-sm-0 {
     margin: 0 !important;
   }
@@ -8367,11 +8363,9 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 768px) {
-  .pdf iframe {
-    height: 26.5rem;
-    margin-bottom: -5rem;
-    margin-top: 1rem;
-}
+  /* .pdf {
+    margin: auto;
+} */
   .m-md-0 {
     margin: 0 !important;
   }
@@ -8717,11 +8711,11 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 992px) {
-  .pdf iframe {
+  /* .pdf {
     height: 26.5rem;
     margin-bottom: -5rem;
     margin-top: 1rem;
-}
+} */
   .m-lg-0 {
     margin: 0 !important;
   }
@@ -9067,11 +9061,11 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 1200px) {
-  .pdf iframe {
+  /* .pdf {
     height: 26.5rem;
     margin-bottom: -5rem;
     margin-top: 1rem;
-}
+} */
   .m-xl-0 {
     margin: 0 !important;
   }
@@ -9463,11 +9457,11 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 576px) {
-  .pdf iframe {
+  /* .pdf {
     height: 26.5rem;
     margin-bottom: -5rem;
     margin-top: 1rem;
-}
+} */
   .text-sm-left {
     text-align: left !important;
   }
@@ -9480,7 +9474,7 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 768px) {
-  .pdf iframe {
+  .pdf {
     height: 26.5rem;
     margin-bottom: -5rem;
     margin-top: 1rem;
@@ -9497,11 +9491,11 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 992px) {
-  .pdf iframe {
+  /* .pdf {
     height: 26.5rem;
     margin-bottom: -5rem;
     margin-top: 1rem;
-}
+} */
   .text-lg-left {
     text-align: left !important;
   }
@@ -9514,7 +9508,7 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 1200px) {
-  .pdf iframe {
+  .pdf {
     height: 26.5rem;
     margin-bottom: -5rem;
     margin-top: 1rem;
@@ -10009,50 +10003,54 @@ h6,
   padding-top: 20px;
 }
 /* PDF Adjustment */
-.pdf{
+/* .pdf{
   text-align: center;
   margin: 0rem 0rem 4rem 0rem;
 }
-.pdf iframe{
+.pdf{
   margin: 2rem 0rem;
   width: 100%;
   height: 26.5rem;
   margin-bottom: -4.5rem;
+} */
+@media (max-width: 400px){
+  .pdf {
+    width: 100%;
+    height: 34.5rem;
+    margin : auto;
+}
 }
 @media (min-width: 500px){
   .logo-name {
     /* height: 1rem; */
     font-size: 3rem;
 }   
-  .pdf iframe{
-    margin: 2rem 0rem;
-    width: 25rem;
-  height: 35rem;
-  margin-bottom: -4.5rem;
-  }
+.pdf {
+  width: 100%;
+  height: 47.3rem;
+  margin: auto;
+}
 }
 @media (min-width: 600px){
   .logo-name {
     /* height: 1rem; */
     font-size: 3rem;
 }   
-  .pdf iframe{
-    margin: 2rem 0rem;
-  width: 35rem;
-  height: 45rem;
-  margin-bottom: -4.5rem;
-  }
+  .pdf{
+  width: 100%;
+  height: 59rem;
+    margin: auto;
+}
 }
 @media (min-width: 700px){
   .logo-name {
     /* height: 1rem; */
     font-size: 3rem;
 }   
-  .pdf iframe{
-    margin: 2rem 0rem;
-  width: 40rem;
-  height: 45rem;
-  margin-bottom: -4.5rem;
+  .pdf{
+  width: 100%;
+  height: 64rem;
+  margin: auto;
   }
 }
 @media (min-width: 800px){
@@ -10060,23 +10058,22 @@ h6,
     /* height: 1rem; */
     font-size: 3rem;
 }   
-  .pdf iframe{
-    margin: 2rem 0rem;
-  width: 45rem;
-  height: 45rem;
-  margin-bottom: -4.5rem;
-  }
+  .pdf{
+  width: 100%;
+  height: 75rem;
+  margin: auto;
+}
 }
 @media (min-width: 900px){
   .logo-name {
     /* height: 1rem; */
     font-size: 3rem;
 }   
-  .pdf iframe{
-    margin: 2rem 0rem;
-  width: 50rem;
-  height: 45rem;
-  margin-bottom: -4.5rem;
+  .pdf{
+    margin: auto;
+  width: 100%;
+  height: 85rem;
+  
   }
 }
 @media (min-width: 1000px){
@@ -10084,11 +10081,10 @@ h6,
     /* height: 1rem; */
     font-size: 3rem;
 }   
-  .pdf iframe{
-    margin: 2rem 0rem;
-  width: 55rem;
-  height: 45rem;
-  margin-bottom: -4.5rem;
+  .pdf{
+    margin: auto;
+  width: 100%;
+  height: 85rem;
   }
 }
 @media (min-width: 1100px){
@@ -10096,11 +10092,10 @@ h6,
     /* height: 1rem; */
     font-size: 3rem;
 }   
-  .pdf iframe{
-    margin: 2rem 0rem;
-  width: 60rem;
-  height: 45rem;
-  margin-bottom: -4.5rem;
+  .pdf{
+    margin: auto;
+  width: 100%;
+  height: 85rem;
   }
 }
 @media (min-width: 1200px){
@@ -10108,23 +10103,21 @@ h6,
     /* height: 1rem; */
     font-size: 3rem;
 }   
-  .pdf iframe{
-    margin: 2rem 0rem;
-  width: 65rem;
-  height: 74rem;
-  margin-bottom: -4.5rem;
-  }
+  .pdf{
+  width: 100%;
+  height: 85rem;
+  margin: auto;
+}
 }
 @media (min-width: 1300px){ 
   .logo-name {
     /* height: 1rem; */
     font-size: 3rem;
 }  
-  .pdf iframe{
-    margin: 2rem 0rem;
-  width: 70;
-  height: 74rem;
-  margin-bottom: -4.5rem;
+  .pdf{
+    margin: auto;
+  width: 21cm;
+  height: 30.5cm;
   }
 }
 /* Logo Name */
