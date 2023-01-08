@@ -73,15 +73,17 @@
     <!-- Page Header Start -->
 
        <!-- Main Content Ends -->
-       <div class="pdf" style="text-align: center;">
-        <iframe src="https://drive.google.com/file/d/1l-Q183xe4MFgKHX0Bc1Tw5QR5Jxc7Rc3/preview" type="application/pdf"></iframe>
-        <h4>DSGT UNIT 1</h4>
-       <!-- <div style="margin: 5rem;" class="download">
-        <a href="https://drive.google.com/uc?export=download&id=1l-Q183xe4MFgKHX0Bc1Tw5QR5Jxc7Rc3">
-            <button style="border-radius: 2rem; padding: 0.5rem 2rem; background-color: dodgerblue; color: white;">Download</button>
-           </a>
-       </div> -->
-    </div>
+       <div id="viewer"class="pdf"></div>
+       <script type="text/javascript" src="https://cloudpdf.io/viewer.min.js"></script>
+       <script>
+         const config = { 
+           documentId: '1755358e-5fdb-4f75-8a76-b770c7d6ceef',
+           darkMode: true, 
+         };
+         CloudPDF(config, document.getElementById('viewer')).then((instance) => {
+           
+         });
+       </script>
     <!-- Main Content Ends -->
 
 
